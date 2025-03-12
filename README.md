@@ -9,7 +9,7 @@ A Raspberry Pi-based conversational AI that uses OpenAI's ChatGPT and ElevenLabs
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
-- [Exposing Your Server with Ngrok](#Ngrok)
+- [Exposing Your Server with Ngrok](#Exposing Your Server with Ngrok)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
 - [License](#license)
@@ -53,7 +53,7 @@ A Raspberry Pi-based conversational AI that uses OpenAI's ChatGPT and ElevenLabs
 - **Install mpg123 (if required for local audio playback):**
    ```bash
    sudo apt-get update
-   udo apt-get install mpg123
+   sudo apt-get install mpg123
 
 
 ## Installation
@@ -95,7 +95,7 @@ A Raspberry Pi-based conversational AI that uses OpenAI's ChatGPT and ElevenLabs
    ```bash
    git pull
 
-## Ngrok
+## Exposing Your Server with Ngrok
 
 1. **Exposing Your Server with Ngrok::**
 When running your Flask server locally (for example, on a Raspberry Pi), it listens on a local address (such as http://127.0.0.1:5001), which isn’t directly accessible from the public internet. This is where ngrok comes into play. Ngrok creates a secure tunnel from a public URL (for example, https://abc123.ngrok.io) to your local server, enabling external services like Twilio to reach your application.
